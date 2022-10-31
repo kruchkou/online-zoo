@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+body {
+    width: 1600px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    color: white;
+    padding: 14px 220px;
+    display: flex;
+    height: 52px;
+    background-color: black;
+    align-items: center;
+}
+
+#header-logo {
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 82px !important;
+    height: 52px !important;
+    border-radius: 2px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+
+#header-logo a {
+    text-decoration: none;
+}
+
+#header-logo-img {
+    position: absolute;
+    /* width: 7.03px; */
+    /* height: 20.98px; */
+    left: 9.13px;
+    top: 22.64px;
+
+    /* transform: matrix(-0.9, 0.52, 0.4, 0.88, 0, 0); */
+}
+
+#logo-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+.header-menu ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 34px;
+}
+
+.header-menu li {
+    margin: 0 29px;
+}
+
+.menu-active {
+    background: -webkit-linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Style the links inside the navigation bar */
+.header-menu a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    /* font-size: 16px; */
+    line-height: 140%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.header-menu a:hover {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#header-copyright {
+    margin-left: auto;
+}
+
+#header-copyright:hover {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

@@ -1,1 +1,1 @@
-https://kruchkou.github.io/online-zoo/home
+https://kruchkou.github.io/online-zoo/pages/main
