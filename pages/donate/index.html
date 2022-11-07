@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Online Zoo</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="../../assets/styles/style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../../assets/images/icon.png">
+</head>
+
+<body>
+    <header>
+        <div id="header-logo">
+            <a href="../../pages/main/index.html"><img src="../../assets/images/bamboo.svg" alt="Bamboo logo" id="header-logo-img">
+                <h1 id="logo-text">PetStory online</h1>
+            </a>
+        </div>
+        <nav class="header-menu">
+            <ul>
+                <li><a href="../../pages/main/index.html">About</a></li>
+                <li><a href="#">Map</a></li>
+                <li><a href="#">Zoos</a></li>
+                <li><a class="menu-active" href="../../pages/donate/index.html">Donate</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+        <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" id="header-copyright">Designed by
+            ©</a>
+    </header>
+    <main>
+        <section id="panda"></section>
+        <section id="donate">
+            <div id="donate-box">
+                <h3 id="donate-title">THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h3>
+                <p id="donate-box-description">Even though the Zoo has been able to reopen, we are at a greatly reduced
+                    capacity with educational
+                    programs and public and private events cancelled or postponed for additional months. We need you now
+                    more than ever to help ensure that we overcome these challenges. We have been actively raising funds
+                    in the community, and we are grateful for the generosity. But much more support is still needed, and
+                    we need your help! Please consider a gift today – no matter what size – to help us sustain our
+                    mission.</p>
+                <h3 id="donate-description">Donation Information</h3>
+
+                <div id="pick-and-feed">
+                    <div id="pick-and-feed-box">
+                        <h2 id="pick-and-feed-title">Pick and feed a friend</h2>
+                        <p id="pick-and-feed-description" class="subtitle">We know the animals bring you joy, and in
+                            these extraordinary times, we’re glad.</p>
+                        <div id="diet-box">
+                            <div id="diet-panda-box">
+                                <div id="diet-panda-quantity-box">
+                                    <p id="diet-panda-quantity">4</p>
+                                    <p id="diet-panda-quantity-description" class="body-roboto">Panda diet for the day.
+                                    </p>
+                                </div>
+                                <img id="diet-panda-x" src="../../assets/images/donate/x.svg"></img>
+                                <img id="diet-panda-img" src="../../assets/images/donate/animals-widget.svg"></img>
+                            </div>
+                        </div>
+                        <form id="form">
+                            <fieldset>
+                                <p id="amount" class="body-roboto">Amount</p>
+                                <div id="pick-amount-range">
+                                    <span id="pick-amount-line"></span>
+                                    <div id="pick-amount-range-box">
+                                        <div class="pick-amount-range-input-box">
+                                            <input id="$5000" type="radio" class="pick-amount-input" name="amount"
+                                                value="$5000">
+                                            <span class="pick-amount-circle"></span>
+                                            <label class="pick-amount-range-input-description" for="$5000">$5000</label>
+                                        </div>
+                                        <div class="pick-amount-range-input-box">
+                                            <input id="$2000" type="radio" class="pick-amount-input" name="amount"
+                                                value="$2000">
+                                            <span class="pick-amount-circle"></span>
+                                            <label class="pick-amount-range-input-description" for="$2000">$2000</label>
+                                        </div>
+                                        <div class="pick-amount-range-input-box">
+                                            <input id="$1000" type="radio" class="pick-amount-input" name="amount"
+                                                value="1000" checked="checked">
+                                            <span class="pick-amount-circle"></span>
+                                            <label class="pick-amount-range-input-description" for="$1000">$1000</label>
+                                        </div>
+                                        <div class="pick-amount-range-input-box">
+                                            <input id="$500" type="radio" class="pick-amount-input" name="amount"
+                                                value="$500">
+                                            <span class="pick-amount-circle"></span>
+                                            <label class="pick-amount-range-input-description" for="$500">$500</label>
+                                            </input>
+                                        </div>
+                                        <div class="pick-amount-range-input-box">
+                                            <input id="$250" type="radio" class="pick-amount-input" name="amount"
+                                                value="$250">
+                                            <span class="pick-amount-circle"></span>
+                                            <label class="pick-amount-range-input-description" for="$250">$250</label>
+                                        </div>
+                                        <div class="pick-amount-range-input-box">
+                                            <input id="$100" type="radio" class="pick-amount-input" name="amount"
+                                                value="$100">
+                                            <span class="pick-amount-circle"></span>
+                                            <label class="pick-amount-range-input-description" for="$100">$100</label>
+                                        </div>
+                                        <div class="pick-amount-range-input-box">
+                                            <input id="$50" type="radio" class="pick-amount-input" name="amount"
+                                                value="$50">
+                                            <span class="pick-amount-circle"></span>
+                                            <label class="pick-amount-range-input-description" for="$50">$50</label>
+                                        </div>
+                                        <div class="pick-amount-range-input-box">
+                                            <input id="$25" type="radio" class="pick-amount-input" name="amount"
+                                                value="$25">
+                                            <span class="pick-amount-circle"></span>
+                                            <label class="pick-amount-range-input-description" for="$25">$25</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div id="another-amount-box">
+                                <input id="another-amount" class="body-roboto" type="number"
+                                    placeholder="Another amount" min=1 max=9999>
+                                <span id="another-amount-icon"></span>
+                            </div>
+                            <div id="amount-frequency-box">
+                                <div class="amount-frequency-input-box">
+                                    <input id="monthly" class="amount-frequency-input" type="radio"
+                                        name="amount-frequency" value="Monthly">
+                                    <label class="amount-frequency-input-description" for="monthly">Monthly</label>
+                                </div>
+                                <div class="amount-frequency-input-box">
+                                    <input id="once" class="amount-frequency-input" type="radio" name="amount-frequency"
+                                        value="Once" checked>
+                                    <label class="amount-frequency-input-description" for="once">Once</label>
+                                </div>
+                            </div>
+                            <a id="feed-btn" href="#" class="btn btn-rounded">FEED A FRIEND NOW</a>
+                            <p id="share-text" class="body-roboto">Share with your friends on social networks</p>
+                        </form>
+                    </div>
+                </div>
+        </section>
+
+        <footer>
+            <div id="footer-box">
+                <div id="footer-left-column">
+                    <div id="header-logo">
+                        <a href="../../pages/main/index.html"><img src="../../assets/images/bamboo.svg" alt="Bamboo logo"
+                                id="header-logo-img">
+                            <p id="logo-text">PetStory online</p>
+                        </a>
+                    </div>
+                    <a href="../../pages/donate/index.html" id="donate-button" class="btn btn-squared">DONATE FOR VOLUNTEERS</a>
+                    <nav id="socials">
+                        <a href="https://www.facebook.com/" class="social-link-box">
+                            <img class="social-icon" src="../../assets/images/facebook.svg">
+                            <p class="social-text">Facebook</p>
+                        </a>
+                        <a href="https://www.twitter.com/" class="social-link-box">
+                            <img class="social-icon" src="../../assets/images/twitter.svg">
+                            <p class="social-text">Twitter</p>
+                        </a>
+                        <a href="https://www.instagram.com/" class="social-link-box">
+                            <img class="social-icon" src="../../assets/images/instagram.svg">
+                            <p class="social-text">Instagram</p>
+                        </a>
+                        <a href="https://www.youtube.com/" class="social-link-box">
+                            <img class="social-icon" src="../../assets/images/youtube.svg">
+                            <p class="social-text">YouTube</p>
+                        </a>
+                    </nav>
+                </div>
+                <nav id="footer-center-column">
+                    <a href="../../pages/main/index.html" class="footer-nav-item">About</a>
+                    <a href="#" class="footer-nav-item">Map</a>
+                    <a href="#" class="footer-nav-item">Zoos</a>
+                    <a href="#" class="footer-nav-item">Contact us</a>
+                </nav>
+                <div id="footer-right-column">
+                    <p id="subscribe">Subscribe to our news</p>
+                    <form id="footer-form">
+                        <input id="email" type="email" placeholder="Enter your email" required></input>
+                        <input type="submit" class="btn-submit" value="Submit"></input>
+                </div>
+            </div>
+
+            <div id="footer-copyright">
+                <p class="footer-copyright-text">Designed by Alisa Samborskaya</p>
+                <p class="footer-copyright-text">©RSSchool & ©Yem Digital 2021</p>
+            </div>
+            </div>
+        </footer> -->
+    </main>
+</body>
+
+</html>
