@@ -2,6 +2,18 @@ input {
     -webkit-appearance: none;
 }
 
+#not-finished {
+    width: 350px;
+    background-color: rgb(0, 0, 0, 0.8);
+    margin: 0;
+    position: relative;
+    top: 50px;
+    left: 80px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: red;
+}
+
 .color-darkgray {
     color: #333B41;
 }
@@ -245,6 +257,9 @@ input {
     position: absolute;
     left: 0px;
     bottom: 0px;
+    background-image: url(../../assets/images/palm_foto.png);
+    height: 460px;
+    width: 292px;
 }
 
 #animals-right-img {
@@ -301,6 +316,7 @@ input {
 #pick-friend-covid {
     margin-top: 40px;
     margin-bottom: 0px;
+    font-weight: 500;
     font-size: 16px;
     line-height: 130%;
 }
@@ -308,6 +324,9 @@ input {
 #pick-friend-description {
     width: 863px;
     margin: 10px 0 0 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
 }
 
 #pick-friend-underline {
@@ -322,7 +341,7 @@ input {
 
 #pick-friend-how-it-works {
     align-self: center;
-    margin: 5px 0 0 0;
+    margin: 0;
     width: 209px;
     padding-top: 60px;
     font-weight: 400;
@@ -349,16 +368,19 @@ input {
 }
 
 .how-it-works-item-description {
-    margin: 30px 0 0 0;
+    margin: 25px 0 0 0;
     /* color:#333B41; */
     width: 168px;
     height: 46px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
 }
 
 .how-it-works-arrow {
     height: 35.08px;
     width: 69px;
-    margin-top: 68px;
+    margin-top: 62px;
 }
 
 #feed-friend-now {
@@ -399,7 +421,7 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 22px;
     height: 391px;
     width: 268px;
     background-image: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
@@ -493,6 +515,7 @@ input {
 }
 
 #testimotionals-progressbar {
+    margin: 0;
     background: #F5F7F6;
     border-radius: 5px;
     display: block;
@@ -519,4 +542,279 @@ input {
     right: 0px;
     bottom: -32px;
     z-index: -1;
+}
+
+@media (max-width: 1000px) {
+
+    header {
+        padding: 14px 30px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .header-menu ul {
+        margin-left: 38px;
+    }
+
+    .header-menu li {
+        margin: 0 24px;
+    }
+
+    #watch-online {
+        position: static;
+        height: 504px;
+        background-image: url("../../assets/images/Giant\ Panda_small.png");
+    }
+
+    #watch-online-text {
+        top: 122.8px;
+        left: 514px;
+        height: 320px;
+        width: 400.25px;
+    }
+
+    #watch-online-text>h2 {
+        margin: 0px;
+        font-weight: 700;
+        font-size: 85px;
+        line-height: 75%;
+    }
+
+    #watch-online-button {
+        left: 565px;
+        top: 483px;
+    }
+
+    #watch-online-circle {
+        z-index: 0;
+        top: 69px;
+        left: 456px;
+        width: 367px;
+        height: 367px;
+    }
+
+    #backstage-flower {
+        display: none;
+    }
+
+    #backstage-box {
+        padding: 98px 30px 0px 30px;
+    }
+
+    #backstage-image {
+        height: 408px;
+        width: 455px;
+        object-fit: cover;
+    }
+
+    #backstage-text-box {
+        margin-left: 31px;
+    }
+
+    #backstage-text-box h2 {
+        margin-top: -10px;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 120%;
+    }
+
+    #backstage-description {
+        margin: 22px 0px 0px 0px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+    }
+
+    #backstage-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .btn {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .btn-round {
+        position: absolute;
+        margin: 0;
+    }
+
+    #animals {
+        padding-bottom: 140px;
+    }
+
+    #animals-left-btn {
+        left: 353px;
+    }
+
+    #animals-right-btn {
+        right: 353px;
+    }
+
+    #animals-scroll-box {
+        margin-top: 155px;
+    }
+
+    #animals-grid {
+        height: 801px;
+        column-gap: 28px;
+        row-gap: 92px;
+    }
+
+    .animal-card {
+        width: 295px;
+        height: 354px;
+    }
+
+    .animal-card-image,
+    .animal-card-hover-box {
+        width: 295px;
+        height: 295px;
+    }
+
+    #animals-left-img {
+        height: 202px;
+        background-image: url("../../assets/images/palm_foto_small.png");
+        width: 194px;
+    }
+
+    #animals-right-img {
+        height: 180px;
+    }
+
+    #choose-favorite-button {
+        margin-top: 2px;
+    }
+
+    #pick-friend {
+        height: 846px;
+        padding-top: 30px;
+    }
+
+    #pick-friend-box {
+        height: 796px;
+        margin: 0 30px 0 30px;
+    }
+
+    #pick-friend-title {
+        padding-top: 30px;
+    }
+
+    #pick-friend-text-box {
+        margin-left: 49px;
+    }
+
+    #pick-friend-subtitle {
+        margin-top: 20px;
+    }
+
+    #pick-friend-covid {
+        width: 813px;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130%;
+    }
+
+    #pick-friend-description {
+        width: 823px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+    }
+
+    #pick-friend-underline {
+        left: 200px;
+        top: 250px;
+    }
+
+    #pick-friend-how-it-works {
+        padding-top: 40px;
+    }
+
+    #how-it-works-flow-box {
+        margin-top: 40px;
+    }
+
+    #feed-friend-now {
+        margin-top: 72px;
+    }
+
+    #testimotionals {
+        height: 842px;
+        padding-top: 0;
+    }
+
+    #testimotionals-box {
+        margin-top: 100px;
+        width: 940px;
+        
+    }
+
+    #testimotionals-content-box {
+        margin-top: 30px;
+    }
+
+    .testimotionals-card-border {
+        width: 293px;
+    }
+
+    .testimotionals-card {
+        width: 291px;
+    }
+
+    .testimotionals-card-box {
+        padding: 13px 22px 19px 14px;
+    }
+
+    .testimotionals-card-border:last-child {
+        display: none;
+    }
+
+    .testimotionals-card-content {
+        height: 290px;
+    }
+
+    #testimotionals-progressbar {
+        width: 389px;
+    }
+
+    #testimotionals-progressbar-box {
+        margin-left: -10px;
+    }
+
+    #testimotionals-progressbar::-webkit-slider-thumb {
+        width: 75px;
+    }
+
+    #testimotionals-progressbar-border {
+        width: 390px;
+    }
+
+    #testimotionals-button-box {
+        margin-top: 52px;
+    }
+
+    #testimotionals-right-img {
+        width: 160px;
+        bottom: -10px;
+    }
+
+    #footer-box {
+        padding-left: 31px;
+        padding-right: 62px;
+    }
+
+    #footer-center-column {
+        left: 321px;
+        width: 332px;
+    }
+
+    #footer-copyright {
+        right: 31px;
+        bottom: 45px;
+    }
 }
