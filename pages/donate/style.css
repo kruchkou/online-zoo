@@ -37,7 +37,7 @@ h2 {
 p {
     margin: 0;
     padding: 0;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 140%;
 }
@@ -73,7 +73,7 @@ fieldset {
 }
 
 #donate-description {
-    margin-top: 43px;
+    margin-top: 45px;
     color: #FE9013;
 }
 
@@ -144,7 +144,7 @@ fieldset {
 }
 
 #pick-amount-range {
-    margin-top: 17px;
+    margin-top: 15px;
     width: 976px;
     display: flex;
     position: relative;
@@ -164,6 +164,7 @@ fieldset {
 }
 
 #pick-amount-range-box {
+    padding-left: 5px;
     position: relative;
     left: 6px;
     display: flex;
@@ -211,8 +212,9 @@ fieldset {
 }
 
 .pick-amount-range-input-description {
+    left: -14px;
     position: absolute;
-    top: 38px;
+    top: 41px;
     font-weight: 500;
     font-size: 26px;
     line-height: 140%;
@@ -239,7 +241,7 @@ fieldset {
     height: 54px;
     border: none;
     background: none;
-    text-indent: 9px;
+    text-indent: 6px;
     color: #333B41;
 }
 
@@ -265,7 +267,7 @@ input::-webkit-inner-spin-button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 23px;
+    margin-top: 25px;
     margin-right: 13px;
     width: 197px;
     height: 22px;
@@ -303,6 +305,507 @@ input::-webkit-inner-spin-button {
 
 #share-text {
     color: #333B41;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-top: 30px;
+}
+
+@media (max-width: 1000px) {
+
+    #panda {
+        width: 1000px;
+        position: static;
+        height: 390px;
+        background-image: url("../../assets/images/donate/panda_bg_small.png");
+    }
+
+    #donate {
+        height: 1333px;
+    }
+
+    #donate-box {
+        margin-left: 30px;
+        width: 939px;
+    }
+
+    #donate-title {
+        width: 778px;
+    }
+
+    #donate-box-description {
+        padding-top: 20px;
+    }
+
+    #pick-and-feed {
+        margin-top: 40px;
+        height: 919px;
+    }
+
+    #pick-and-feed-title {
+        margin-right: 20px;
+        margin-top: -20px;
+    }
+
+    #pick-and-feed-box {
+        padding: 40px 41px 62px 46px;
+    }
+
+    #diet-panda-box {
+        margin-left: 151px;
+    }
+
+    #pick-and-feed-description {
+        margin-top: 11px;
+        margin-left: 1px;
+    }
+
+    #diet-box {
+        padding-top: 0px;
+    }
+
+    .pick-amount-range-input-box:first-child {
+        display: none;
+    }
+
+    #amount {
+        margin-left: -2px;
+    }
+
+    #pick-amount-range {
+        width: 809px;
+        margin-right: 4px;
+        margin-top: 15px;
+    }
+
+    #pick-amount-line {
+        width: 785px;
+        left: 13px;
+    }
+
+    #pick-amount-range-box {
+        width: 809px;
+    }
+
+    #another-amount-box {
+        margin-top: 97px;
+    }
+
+    #another-amount {
+        margin-left: -5px;
+    }
+
+    #button-feed {
+        margin-left: 0px;
+        margin-top: 29px;
+    }
+
+    #share-text {
+        margin-left: 0px;
+    }
+
+    .pick-amount-range-input-box {
+        left: -7px;
+        width: 27px;
+    }
+
+    #desc2000 {
+        left: -5px;
+    }
+
+    #desc1000 {
+        left: -6px;
+    }
+
+    #desc500 {
+        left: -6px;
+    }
+
+    #desc250 {
+        left: -6px;
+    }
+
+    #desc100 {
+        left: -6px;
+    }
+
+    #desc50 {
+        left: -4px;
+    }
+
+    #desc25 {
+        left: -4px;
+    }
+
+    #amount-frequency-box {
+        margin-right: 20px;
+    }
+
+    #feed-btn {
+        margin-left: 0;
+    }
+
+    #footer-center-column {
+        left: 333px;
+        width: 332px;
+    }
+
+}
+
+@media (max-width: 640px) {
+    #panda {
+        width: 640px;
+        height: 335px;
+        background-image: url("../../assets/images/donate/panda_bg_tablet.png");
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    #donate-box {
+        width: 592px;
+    }
+
+    #donate-title {
+        font-size: 24px;
+        width: 600px;
+        margin-left: -10.5px;
+        margin-top: -10px;
+        line-height: 120%;
+    }
+
+    #donate-box-description {
+        padding-top: 9px;
+        margin-left: -11px;
+    }
+
+    #donate-description {
+        margin-top: 28px;
+        font-size: 36px;
+        margin-left: -10px;
+    }
+
+    #pick-and-feed {
+        margin-top: 31px;
+        margin-left: -10px;
+        width: 600px;
+    }
+
+    #pick-and-feed-title {
+        margin-right: 3px;
+        margin-top: -8px;
+    }
+
+    #pick-and-feed-description {
+        margin-top: 19px;
+        margin-left: -4px;
+        text-align: center;
+    }
+
+    #diet-panda-box {
+        margin-left: -19px;
+        margin-top: -10px;
+    }
+
+    #amount-frequency-box {
+        margin-top: 30px;
+        margin-right: 25px;
+    }
+
+    fieldset {
+        margin: -8px -13px 0 0;
+    }
+
+    #amount {
+        margin-left: -4px;
+    }
+
+    #pick-amount-range {
+        width: 600px;
+        margin-left: -15px;
+        margin-top: 7px;
+    }
+
+    #pick-amount-line {
+        width: 524px;
+        left: 41px;
+    }
+
+    .pick-amount-range-input-box:nth-child(1),
+    .pick-amount-range-input-box:nth-child(2),
+    .pick-amount-range-input-box:nth-child(3) {
+        display: none;
+    }
+
+    #pick-amount-range-box {
+        left: 27px;
+        width: 553px;
+    }
+
+    #desc500 {
+        left: -10px;
+    }
+
+    #desc250 {
+        left: -10px;
+    }
+
+    #desc100 {
+        left: -10px;
+    }
+
+    #desc50 {
+        left: -10px;
+    }
+
+    #desc25 {
+        left: -10px;
+    }
+
+    #another-amount-box {
+        margin-top: 98px;
+        margin-left: -6px;
+    }
+
+    #another-amount-box {
+        width: 178px;
+        height: 41px;
+    }
+
+    #another-amount-icon {
+        margin-right: 8px;
+    }
+
+    #share-text {
+        margin-left: -5px;
+    }
+
+    #footer-center-column {
+        left: 21px;
+        bottom: 12px;
+        width: 296px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    #panda {
+        background-image: url("../../assets/images/donate/panda_bg_mobile.png");
+        width: 320px;
+        height: 187px;
+    }
+
+    #donate {
+        height: unset;
+        padding-bottom: 21px;
+    }
+
+    #donate-title {
+        line-height: 122%;
+        width: 300px;
+        margin-left: -20.5px;
+        margin-top: -10px;
+    }
+
+    #donate-box {
+        width: 279px;
+    }
+
+    #donate-box-description {
+        padding-top: 9px;
+        margin-left: -21px;
+        line-height: 138%;
+    }
+
+    #donate-description {
+        margin-top: 29px;
+        font-size: 24px;
+        margin-left: -20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    #pick-and-feed {
+        margin-top: 28px;
+        margin-left: -20px;
+        width: 300px;
+        height: 591px;
+    }
+
+    #pick-and-feed-box {
+        padding: 0;
+    }
+
+    #pick-and-feed-title {
+        margin-right: -1px;
+        margin-top: 0;
+        padding-top: 20px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    #pick-and-feed-description {
+        line-height: 135%;
+        margin-top: 10px;
+        margin-left: -1px;
+    }
+
+    #diet-panda-img {
+        width: 160.4px;
+        height: 156.92px;
+        margin-top: -41px;
+    }
+
+    #diet-panda-quantity {
+        font-size: 40.6px;
+        margin-top: 27px;
+        margin-left: 0px;
+    }
+
+    #diet-panda-box {
+        margin-left: 0px;
+        margin-top: -16px;
+        width: 309px;
+    }
+
+    #diet-panda-x {
+        align-self: end;
+        margin-bottom: 67px;
+        margin-top: -6px;
+        margin-left: 6px;
+        width: 8px;
+    }
+
+    #diet-panda-quantity-description {
+        font-weight: 400;
+        font-size: 9.02255px;
+        line-height: 140%;
+        margin: 6px 0 0 0;
+    }
+
+    #diet-panda-img {
+        margin-left: 36px;
+    }
+
+    #amount {
+        margin-left: -9px;
+        font-size: 16px;
+        margin-top: -129px;
+    }
+
+    #pick-amount-range {
+        width: 300px;
+        height: 13.5px;
+        margin-left: -9px;
+        margin-top: 9px;
+    }
+
+    #pick-amount-line {
+        height: 1px;
+        width: 261px;
+        left: 20px;
+        top: 6px;
+    }
+
+    .input-value {
+        font-size: 13px;
+    }
+
+    .pick-amount-circle {
+        width: 5px;
+        height: 5px;
+    }
+
+    #pick-amount-range-box {
+        padding-left: 13px;
+        left: 0px;
+        width: 300px;
+    }
+
+    .pick-amount-range-input-box {
+        height: 13.5px;
+    }
+
+    .pick-amount-input:checked~.pick-amount-circle {
+        background-position: center;
+        background-size: contain;
+        width: 20px;
+        height: 20px;
+    }
+
+    .pick-amount-range-input-description {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 140%;
+        top: 19px;
+    }
+
+    #desc500 {
+        left: 1px;
+    }
+
+    #desc250 {
+        left: 1px;
+    }
+
+    #desc100 {
+        left: 1px;
+    }
+
+    #desc50 {
+        left: 1px;
+    }
+
+    #desc25 {
+        left: 1px;
+    }
+
+    .input-amount:checked~.amount-icon {
+        background: url(../../assets/images/donate/roller_icon320.svg);
+        width: 20px;
+        height: 20px;
+        background-size: contain;
+        background-position: center;
+    }
+
+    #amount-frequency-box {
+        margin-top: 24px;
+        margin-right: 23px;
+    }
+
+    #feed-btn {
+        margin-top: 28px;
+    }
+
+    #another-amount-box {
+        width: 180px;
+        height: 42px;
+        margin-top: -35px;
+        margin-left: 2px;
+    }
+
+    #another-amount {
+        text-indent: 8px;
+        font-size: 16px;
+    }
+
+    #button-feed {
+        margin-left: 1px;
+        margin-top: 20px;
+    }
+
+    #share-text {
+        margin-left: -1px;
+        font-size: 16px;
+    }
+
+    #footer-center-column {
+        left: 21px;
+        bottom: 19px;
+        width: 278px;
+    }
 }

@@ -48,7 +48,7 @@ input {
     position: absolute;
 }
 
-#watch-online-text>h2 {
+#watch-online-text > h2 {
     color: white;
     font-weight: 700;
     font-size: 106.496px;
@@ -72,11 +72,15 @@ input {
 
 #backstage-box {
     display: flex;
-    height: 403px;
     padding-left: 219px;
     padding-right: 220px;
     padding-top: 128px;
     margin-top: 12px;
+}
+
+#backstage-image {
+    width: 609px;
+    height: 403px;
 }
 
 #backstage-text-box {
@@ -117,20 +121,24 @@ input {
 }
 
 #backstage-flower {
+    background-size: cover;
+    background-image: url("../../assets/images/flower_foto1.png");
     position: absolute;
-    left: 1400px;
+    left: 1397px;
     top: 0px;
+    width: 204px;
+    height: 613px;
 }
 
 #animals {
     position: relative;
     padding-left: 118px;
     padding-right: 120px;
-    padding-bottom: 100px;
+    padding-bottom: 99px;
 }
 
 #animals-scroll-box {
-    margin-top: 180px;
+    padding-top: 178px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,7 +150,6 @@ input {
     column-gap: 30px;
     row-gap: 20px;
     width: 1158px;
-    height: 872px;
 }
 
 .animal-card {
@@ -247,7 +254,7 @@ input {
 }
 
 #animal-btn-box {
-    margin-top: 80px;
+    margin-top: 81px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -263,17 +270,19 @@ input {
 }
 
 #animals-right-img {
+    height: 275px;
+    width: 368px;
     position: absolute;
     right: 0px;
     bottom: 0px;
+    background-image: url("../../assets/images/strelitzia 1.png");
+    background-size: contain;
 }
 
 #pick-friend {
     padding-top: 69px;
+    padding-bottom: 100px;
     position: relative;
-    top: 0px;
-    /* padding-top: 69px; */
-    height: 935px;
     background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
     opacity: 0.9;
 }
@@ -283,7 +292,7 @@ input {
     flex-flow: column;
     color: #333B41;
     height: 835px;
-    margin: 0px 220px 100px 220px;
+    margin: 0px 220px 0 220px;
     background: rgba(253, 253, 255, 0.52);
     backdrop-filter: blur(2px);
     border-radius: 20px;
@@ -369,7 +378,6 @@ input {
 
 .how-it-works-item-description {
     margin: 25px 0 0 0;
-    /* color:#333B41; */
     width: 168px;
     height: 46px;
     font-weight: 400;
@@ -381,6 +389,7 @@ input {
     height: 35.08px;
     width: 69px;
     margin-top: 62px;
+    background-image: url("../../assets/images/how-it-works-arrow.svg");
 }
 
 #feed-friend-now {
@@ -392,8 +401,8 @@ input {
     display: flex;
     justify-content: center;
     padding-top: 140px;
+    padding-bottom: 180px;
     position: relative;
-    height: 779px;
 }
 
 #testimotionals-box {
@@ -485,7 +494,7 @@ input {
 }
 
 #testimotionals-progressbar-box {
-    margin-top: 21px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
@@ -540,25 +549,14 @@ input {
 #testimotionals-right-img {
     position: absolute;
     right: 0px;
-    bottom: -32px;
-    z-index: -1;
+    background-image: url("../../assets/images/leaf_foto.png");
+    background-size: cover;
+    width: 199px;
+    bottom: 0;
+    height: 236px;
 }
 
 @media (max-width: 1000px) {
-
-    header {
-        padding: 14px 30px;
-        position: relative;
-        z-index: 1;
-    }
-
-    .header-menu ul {
-        margin-left: 38px;
-    }
-
-    .header-menu li {
-        margin: 0 24px;
-    }
 
     #watch-online {
         position: static;
@@ -628,7 +626,7 @@ input {
     #backstage-text {
         font-weight: 400;
         font-size: 16px;
-        line-height: 140%;
+        line-height: 137%;
     }
 
     .btn {
@@ -655,11 +653,10 @@ input {
     }
 
     #animals-scroll-box {
-        margin-top: 155px;
+        padding-top: 142px;
     }
 
     #animals-grid {
-        height: 801px;
         column-gap: 28px;
         row-gap: 92px;
     }
@@ -670,6 +667,7 @@ input {
     }
 
     .animal-card-image,
+    .animal-card-image-box,
     .animal-card-hover-box {
         width: 295px;
         height: 295px;
@@ -682,16 +680,13 @@ input {
     }
 
     #animals-right-img {
-        height: 180px;
-    }
-
-    #choose-favorite-button {
-        margin-top: 2px;
+        width: 239px;
+        height: 178px;
     }
 
     #pick-friend {
-        height: 846px;
         padding-top: 30px;
+        padding-bottom: 50px;
     }
 
     #pick-friend-box {
@@ -713,7 +708,7 @@ input {
 
     #pick-friend-covid {
         width: 813px;
-        margin-top: 20px;
+        margin-top: 21px;
         font-weight: 500;
         font-size: 16px;
         line-height: 130%;
@@ -740,18 +735,17 @@ input {
     }
 
     #feed-friend-now {
-        margin-top: 72px;
+        margin-top: 71px;
     }
 
     #testimotionals {
-        height: 842px;
         padding-top: 0;
+        padding-bottom: 140px;
     }
 
     #testimotionals-box {
         margin-top: 100px;
         width: 940px;
-        
     }
 
     #testimotionals-content-box {
@@ -763,7 +757,7 @@ input {
     }
 
     .testimotionals-card {
-        width: 291px;
+        width: 289px;
     }
 
     .testimotionals-card-box {
@@ -800,21 +794,539 @@ input {
 
     #testimotionals-right-img {
         width: 160px;
-        bottom: -10px;
+        bottom: 0;
+        height: 208px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    #watch-online {
+        position: relative;
+        height: 339px;
+        background-image: url("../../assets/images/Giant\ Panda_tablet.png");
+        background-position: bottom;
     }
 
-    #footer-box {
-        padding-left: 31px;
-        padding-right: 62px;
+    #watch-online-circle {
+        width: 237.6px;
+        height: 237.6px;
+        left: calc(50% - 237.6px/2 + 130.44px);
+        top: 10.23px;
     }
 
-    #footer-center-column {
-        left: 321px;
-        width: 332px;
+    #watch-online-text {
+        width: 255.64px;
+        height: 204.38px;
+        left: 368px;
+        top: 49px;
     }
 
-    #footer-copyright {
-        right: 31px;
-        bottom: 45px;
+    #watch-online-text>h2 {
+        font-size: 54.2894px;
+    }
+
+    #watch-online-button {
+        left: 20px;
+        top: 245px;
+    }
+
+    #backstage-image {
+        display: none;
+    }
+
+    #backstage-text-box {
+        margin-left: 0px;
+        width: 495px;
+    }
+
+    #backstage-text-box>h3 {
+        margin-top: 30px;
+    }
+
+
+    #backstage-box {
+        padding: 58px 0 0 24px;
+    }
+
+    #backstage-description {
+        padding-right: 25px;
+        margin: 21.5px 0 0 -4px;
+    }
+
+    #backstage-text {
+        margin-top: 19.5px;
+        margin-left: -4px;
+    }
+
+    #backstage-flower {
+        display: block;
+        right: 0;
+        left: unset;
+        width: 132px;
+        height: 484px;
+        top: -17px;
+        object-fit: cover;
+        object-position: left;
+    }
+
+    #animals {
+        padding-bottom: 100px;
+    }
+
+    #animals-scroll-box {
+        padding-top: 81px;
+    }
+
+    .animal-card-image,
+    .animal-card-image-box,
+    .animal-card-hover-box {
+        width: 284px;
+        height: 284px;
+    }
+
+    #animals-grid {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 29.76px;
+    }
+
+    .animal-card {
+        width: 285px;
+        height: 332px;
+    }
+
+    .animal-card:nth-child(n+5) {
+        display: none;
+    }
+
+    .animal-card-description-image {
+        margin: auto 5px auto auto;
+        height: 30px;
+    }
+
+    .animal-card-description {
+        height: 46.76px;
+    }
+
+    .animal-card-description-text {
+        margin-left: 12.47px;
+    }
+
+    .animal-title {
+        height: 17px;
+        margin: 8px 0 0 0;
+        font-size: 12px;
+        letter-spacing: 0.3px;
+    }
+
+    .animal-description {
+        height: 14px;
+        margin: -1px 0 0 0;
+        font-size: 11px;
+        letter-spacing: 0.3px;
+    }
+
+    #animals-left-btn,
+    #animals-right-btn {
+        top: 424px;
+    }
+
+    #animals-left-btn {
+        left: 243px;
+    }
+
+    #animals-right-btn {
+        right: 243px;
+    }
+
+    #animal-btn-box {
+        margin-top: 60px;
+    }
+
+    #animals-right-img {
+        width: 173px;
+        height: 128px;
+    }
+
+    #animals-left-img {
+        left: -60px;
+    }
+
+    #pick-friend {
+        height: 781px;
+        padding-top: 20px;
+    }
+
+    #pick-friend-box {
+        margin: 0;
+        padding: 0 20px 0 20px;
+    }
+
+    #pick-friend-title {
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 120%;
+        padding-top: 10px;
+    }
+
+    #pick-friend-text-box {
+        margin: 0;
+    }
+
+    #pick-friend-subtitle {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 120%;
+    }
+
+    #pick-friend-covid,
+    #pick-friend-description {
+        width: unset;
+    }
+
+    #pick-friend-covid {
+        margin-top: 19px;
+        width: unset;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130%;
+    }
+
+    #pick-friend-underline {
+        top: 245px;
+        left: 376px;
+    }
+
+    #pick-friend-how-it-works {
+        padding-top: 31px;
+    }
+
+    #how-it-works-flow-box {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .how-it-works-arrow {
+        top: 327px;
+        z-index: 1;
+        width: 89px;
+        height: 29px;
+        position: absolute;
+        margin: 0;
+        background-image: url("../../assets/images/how-it-works-arrow_tablet.svg");
+    }
+
+    .how-it-works-item-box {
+        z-index: 0;
+        width: 168px;
+    }
+
+    .how-it-works-item-box:nth-child(5) {
+        margin-right: 12px;
+    }
+
+    .how-it-works-arrow:nth-child(2) {
+        left: 157px;
+    }
+
+    .how-it-works-arrow:nth-child(4) {
+        left: 365px;
+    }
+
+    #feed-friend-now {
+        margin-top: 40px;
+    }
+
+    #testimotionals {
+        padding-bottom: 80px;
+    }
+
+    #testimotionals-box {
+        margin: 60px 20px 0 20px;
+    }
+
+    #testimotionals-title {
+        margin-left: -4px;
+    }
+
+    #testimotionals-content-box {
+        height: 357px;
+        flex-direction: column;
+    }
+
+    .testimotionals-card-border {
+        width: 600px;
+        height: 109px;
+    }
+
+    .testimotionals-card {
+        width: 596px;
+        height: 105px;
+    }
+
+    .testimotionals-card-content {
+        height: 38px;
+        margin-left: 6px;
+    }
+
+    .testimotionals-card-box {
+        padding: 13px 17px 0 10px;
+    }
+
+    #testimotionals-progressbar-box {
+        display: none;
+    }
+
+    #testimotionals-button-box {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    #testimotionals-button {
+        width: 240px;
+    }
+
+    #testimotionals-right-img {
+        width: 92px;
+        height: 133px;
+        bottom: -19px;
+        background-image: url("../../assets/images/leaf_foto.png");
+        background-size: cover;
+    }
+}
+
+#not-finished {
+    display: none;
+}
+
+@media(max-width: 320px) {
+
+    #watch-online {
+        background-image: url("../../assets/images/Giant\ Panda_mobile.png");
+        height: 186.96px;
+    }
+
+    #watch-online-circle {
+        left: 162.6px;
+        top: 22.17px;
+        width: 119.09px;
+        height: 119.09px;
+    }
+
+    #watch-online-text {
+        top: 43px;
+        left: 181px;
+        height: 102.44px;
+        width: 128.13px;
+    }
+
+    #watch-online-button {
+        top: 207px;
+        left: 11px;
+    }
+
+    #watch-online-text>h2 {
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    #backstage-flower {
+        right: 0px;
+        top: 27px;
+        width: 32px;
+        height: 217px;
+    }
+
+    #backstage-box {
+        padding: 103px 0 0 10px;
+    }
+
+    #backstage-description {
+        margin: 10px -1px 11px 2px;
+    }
+
+    #backstage-text-box>h3 {
+        margin: 20.5px 0 0 2px;
+    }
+
+    #backstage-text-box>h2 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+    }
+
+    #backstage-text {
+        margin: 9px 10px 0 0;
+        line-height: 138%;
+    }
+
+    #animals {
+        padding: 0 10px 60px 10px;
+    }
+
+    #animals-left-btn,
+    #animals-right-btn {
+        display: none;
+    }
+
+    #animals-grid {
+        padding: 0 10px 0 10px;
+        row-gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #animals-scroll-box {
+        padding-top: 40px;
+    }
+
+    #animal-btn-box {
+        margin-top: 20px;
+    }
+
+    #animals-left-img {
+        height: 72px;
+        background-size: contain;
+        width: 135px;
+        left: -80px;
+    }
+
+    #animals-right-img {
+        height: 60px;
+        background-position: left bottom;
+        width: 72px;
+        bottom: -4px;
+        right: 0px;
+        background-size: cover;
+        height: 70px;
+    }
+
+    #pick-friend {
+        height: unset;
+        padding: 20px 10px 20px 10px;
+    }
+
+    #pick-friend-box {
+        height: unset;
+        padding: 0 10px 39px 10px;
+    }
+
+    #pick-friend-title {
+        width: unset;
+        padding-top: 20px;
+        font-size: 24px;
+    }
+
+    #pick-friend-subtitle {
+        text-align: center;
+        margin: 11px 0 0 -3px;
+        font-size: 18px;
+    }
+
+    #pick-friend-covid,
+    #pick-friend-description,
+    #pick-friend-underline {
+        display: none;
+    }
+
+    #pick-friend-how-it-works {
+        padding-top: 20px;
+        font-size: 24px;
+        width: unset;
+    }
+
+    #how-it-works-flow-box {
+        height: unset;
+        align-items: center;
+        margin-top: 18px;
+        flex-direction: column;
+    }
+
+    .how-it-works-item-description {
+        height: unset;
+        margin-top: 6px;
+    }
+
+    .how-it-works-item-box {
+        padding-bottom: 42px;
+    }
+
+
+    .how-it-works-item-box:nth-child(3) {
+        padding-bottom: 28px;
+    }
+
+    .how-it-works-item-box:nth-child(5) {
+        margin-right: unset;
+        padding-bottom: 0;
+    }
+
+    .how-it-works-arrow {
+        transform: rotate(85deg);
+    }
+
+    .how-it-works-arrow:nth-child(2) {
+        top: 386px;
+        left: 206px;
+    }
+
+    .how-it-works-arrow:nth-child(4) {
+        top: 635px;
+        left: 206px;
+    }
+
+    #feed-friend-now {
+        margin-top: 39px;
+    }
+
+    #testimotionals {
+        padding-bottom: 60px;
+    }
+
+    #testimotionals-box {
+        width: unset;
+        margin: 30px 0 0 0;
+    }
+
+    #testimotionals-content-box {
+        margin-top: 18px;
+        width: unset;
+    }
+
+    #testimotionals-title {
+        margin-left: 0;
+        font-size: 24px;
+    }
+
+    .testimotionals-card-box {
+        padding: 0;
+    }
+
+    .testimotionals-card-border {
+        width: 299px;
+    }
+
+    .testimotionals-card {
+        padding: 9px 25px 10px 10px;
+        width: 295px;
+    }
+
+    .testimotionals-card-title-box {
+        margin-left: 6.5px;
+    }
+
+    .testimotionals-card-content {
+        margin-top: 11px;
+    }
+
+    #testimotionals-button-box {
+        margin-top: 30px;
+    }
+
+    #testimotionals-right-img {
+        width: 51px;
+        height: 94px;
+        bottom: -30px;
+        background-image: url("../../assets/images/leaf_foto_mobile.png");
     }
 }
