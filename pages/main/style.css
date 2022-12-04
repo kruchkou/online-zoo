@@ -2,18 +2,6 @@ input {
     -webkit-appearance: none;
 }
 
-#not-finished {
-    width: 350px;
-    background-color: rgb(0, 0, 0, 0.8);
-    margin: 0;
-    position: relative;
-    top: 50px;
-    left: 80px;
-    font-size: 2rem;
-    font-weight: 500;
-    color: red;
-}
-
 .color-darkgray {
     color: #333B41;
 }
@@ -1094,10 +1082,6 @@ input {
         background-image: url("../../assets/images/leaf_foto.png");
         background-size: cover;
     }
-}
-
-#not-finished {
-    display: none;
 }
 
 @media(max-width: 320px) {
