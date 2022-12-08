@@ -11,9 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let closeButton = createCloseButton();
     let darkBlock = createDarkBlock();
 
-    burgerButton.addEventListener("click", () => {
-       openBurger();
-    });
+    burgerButton.addEventListener("click", openBurger);
 
     function createCloseButton() {
         let button = document.createElement("div");
@@ -57,4 +55,4 @@ document.addEventListener("DOMContentLoaded", () => {
         main.removeChild(darkBlock);
     }
 
-})
+});

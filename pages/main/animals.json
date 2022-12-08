@@ -1,0 +1,74 @@
+[
+    {
+        "name": "GIANT PANDAS",
+        "description": "Native to Southwest China",
+        "imageLink": "../../assets/images/animals/animal 1.png",
+        "mealLink": "../../assets/images/banana-bamboo_icon.svg"
+    },
+    {
+        "name": "EAGLES",
+        "description": "Native to South America",
+        "imageLink": "../../assets/images/animals/animal 2.png",
+        "mealLink": "../../assets/images/meet-fish_icon.svg"
+    },
+    {
+        "name": "GORILLAS",
+        "description": "Native to Congo",
+        "imageLink": "../../assets/images/animals/animal 3.png",
+        "mealLink": "../../assets/images/banana-bamboo_icon.svg"
+    },
+    {
+        "name": "TWO-TOED SLOTH",
+        "description": "Mesoamerica, South America",
+        "imageLink": "../../assets/images/animals/animal 4.png",
+        "mealLink": "../../assets/images/banana-bamboo_icon.svg"
+    },
+    {
+        "name": "CHEETAHS",
+        "description": "Native to Antarctica",
+        "imageLink": "../../assets/images/animals/animal 5.png",
+        "mealLink": "../../assets/images/meet-fish_icon.svg"
+    },
+    {
+        "name": "PENGUINS",
+        "description": "Native to Southwest China",
+        "imageLink": "../../assets/images/animals/animal 6.png",
+        "mealLink": "../../assets/images/meet-fish_icon.svg"
+    },
+    {
+        "name": "KANGAROOS",
+        "description": "Native to Australia",
+        "imageLink": "../../assets/images/animals/animal 7.jpg",
+        "mealLink": "../../assets/images/banana-bamboo_icon.svg"
+    },
+    {
+        "name": "GOATS",
+        "description": "Native to road traffic",
+        "imageLink": "../../assets/images/animals/animal 8.jpg",
+        "mealLink": "../../assets/images/banana-bamboo_icon.svg"
+    },
+    {
+        "name": "CATS",
+        "description": "Native to grandmothers houses",
+        "imageLink": "../../assets/images/animals/animal 9.jpeg",
+        "mealLink": "../../assets/images/meet-fish_icon.svg"
+    },
+    {
+        "name": "JAGUAR",
+        "description": "Native to central America",
+        "imageLink": "../../assets/images/animals/animal 10.jpeg",
+        "mealLink": "../../assets/images/meet-fish_icon.svg"
+    },
+    {
+        "name": "RATS",
+        "description": "Native to the city",
+        "imageLink": "../../assets/images/animals/animal 11.jpg",
+        "mealLink": "../../assets/images/banana-bamboo_icon.svg"
+    },
+    {
+        "name": "PIGEON",
+        "description": "Native to the city",
+        "imageLink": "../../assets/images/animals/animal 12.jpeg",
+        "mealLink": "../../assets/images/banana-bamboo_icon.svg"
+    }
+]
