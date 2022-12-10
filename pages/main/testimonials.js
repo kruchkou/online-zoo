@@ -31,32 +31,32 @@ document.addEventListener("DOMContentLoaded", () => {
         popup.className = "popup";
 
         let testimonialCardBorder = document.createElement("div");
-        testimonialCardBorder.className = "testimotionals-card-border";
+        testimonialCardBorder.className = "testimotionals-popup-card-border";
         
         let testimonialCard = document.createElement("div");
-        testimonialCard.className = "testimotionals-card";
+        testimonialCard.className = "testimotionals-popup-card";
 
         let testimonialCardBox = document.createElement("div");
-        testimonialCardBox.className = "testimotionals-card-box";
+        testimonialCardBox.className = "testimotionals-popup-card-box";
 
         let testimonialCardHeaderBox = document.createElement("div");
-        testimonialCardHeaderBox.className = "testimotionals-card-header-box";
+        testimonialCardHeaderBox.className = "testimotionals-popup-card-header-box";
         
         let testimonialAvatarImg = document.createElement("img");
         testimonialAvatarImg.src = data.avatarImg;
-        testimonialAvatarImg.className = "testimotionals-avatar-img";
+        testimonialAvatarImg.className = "testimotionals-popup-avatar-img";
         testimonialCardHeaderBox.appendChild(testimonialAvatarImg);
 
         let testimonialCardTitleDescription = document.createElement("div");
-        testimonialCardTitleDescription.className = "testimotionals-card-title-description";
+        testimonialCardTitleDescription.className = "testimotionals-popup-card-title-description";
 
         let testimonialsCardTitleBox = document.createElement("div");
-        testimonialsCardTitleBox.className = "testimotionals-card-title-box";
+        testimonialsCardTitleBox.className = "testimotionals-popup-card-title-box";
         testimonialsCardTitleBox.appendChild(testimonialCardTitleDescription);
 
         let testimonialCardTitle = document.createElement("p");
-        testimonialCardTitle.className = "testimotionals-card-title";
-        testimonialCardTitle.textContent = data.title;
+        testimonialCardTitle.className = "testimotionals-popup-card-title";
+        testimonialCardTitle.textContent = data.author;
 
         let birthPlace = document.createElement("p");
         birthPlace.textContent = data.birthPlace;
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
         cross.addEventListener("click", onClose);
 
         let testimonialCardContent = document.createElement("div");
-        testimonialCardContent.className = "testimotionals-card-content";
+        testimonialCardContent.className = "testimotionals-popup-card-content";
 
         let content = document.createElement("p");
         content.textContent = data.comment;
@@ -78,10 +78,10 @@ document.addEventListener("DOMContentLoaded", () => {
         testimonialCardTitleDescription.appendChild(birthPlace);
         testimonialCardTitleDescription.appendChild(padding);
         testimonialCardTitleDescription.appendChild(date);
-        testimonialCardTitleDescription.appendChild(cross);
         testimonialsCardTitleBox.appendChild(testimonialCardTitle);
         testimonialsCardTitleBox.appendChild(testimonialCardTitleDescription);
         testimonialCardHeaderBox.appendChild(testimonialsCardTitleBox);
+        testimonialCardHeaderBox.appendChild(cross);
         testimonialCardBox.appendChild(testimonialCardHeaderBox);
         testimonialCardBox.appendChild(testimonialCardContent);
         testimonialCard.appendChild(testimonialCardBox);
@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         let testimonialCardTitle = document.createElement("p");
         testimonialCardTitle.className = "testimotionals-card-title";
-        testimonialCardTitle.textContent = data.title;
+        testimonialCardTitle.textContent = data.author;
 
         let birthPlace = document.createElement("p");
         birthPlace.textContent = data.birthPlace;
@@ -132,9 +132,6 @@ document.addEventListener("DOMContentLoaded", () => {
         padding.textContent = "•";
         let date = document.createElement("p");
         date.textContent = data.date;
-
-        let cross = document.createElement("div");
-        cross.className = "header-menu-close-btn";
 
         let testimonialCardContent = document.createElement("div");
         testimonialCardContent.className = "testimotionals-card-content";

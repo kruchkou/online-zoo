@@ -454,6 +454,7 @@ input {
     color: #333B41;
     background: #F1F3F2;
     border-radius: 20px;
+    overflow: hidden;
 }
 
 .testimotionals-card-box {
@@ -571,6 +572,79 @@ input {
     width: 199px;
     bottom: 0;
     height: 236px;
+}
+
+.testimotionals-popup-card-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    height: 391px;
+    width: 268px;
+    background-image: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
+        linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+
+.testimotionals-popup-card {
+    height: 387px;
+    width: 264px;
+    color: #333B41;
+    background: #F1F3F2;
+    border-radius: 20px;
+}
+
+.testimotionals-popup-card-box {
+    padding: 15px 12px 19px 14px;
+}
+
+.testimotionals-popup-card-header-box {
+    display: flex;
+    height: 37px;
+}
+
+.testimotionals-popup-card-title-box {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.testimotionals-popup-card-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: black;
+    margin: 0px;
+}
+
+.testimotionals-popup-avatar-img {
+    width: 37px;
+    height: 37px;
+}
+
+.testimotionals-popup-card-title-description {
+    display: flex;
+    flex-direction: row;
+    color: #BDBDBD;
+}
+
+.testimotionals-popup-card-title-description>p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    margin: 0 6px 0 0;
+}
+
+.testimotionals-popup-card-content {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    height: 308px;
+    overflow: hidden;
+    color: #767474;
+}
+
+.testimotionals-popup-card-content>p {
+    margin: 0px;
 }
 
 @media (max-width: 1000px) {
@@ -1093,6 +1167,12 @@ input {
     .testimotionals-card-content {
         height: 38px;
         margin-left: 6px;
+    }
+    
+    .testimotionals-card-content>p {
+        height: 40px;
+        overflow: hidden;
+        margin: 0px;
     }
 
     .testimotionals-card-box {
