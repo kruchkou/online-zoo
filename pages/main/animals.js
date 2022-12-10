@@ -3,12 +3,11 @@
 const animalsQuantity = 6;
 
 document.addEventListener("DOMContentLoaded", () => {
-    let animals;
     let arrowLeft = document.querySelector("#animals-left-btn");
     let arrowRight = document.querySelector("#animals-right-btn");
     let scrollBox = document.querySelector("#scroll");
-
-
+    
+    let animals;
     fetch('animals.json')
         .then(response => {
             return response.json();
@@ -46,9 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (e.target == scrollBox) {
             scrollBox.style.transition = 'none';
             scrollBox.style.transform = 'translate(0)';
-            setTimeout(function () {
-                scrollBox.style.transition = 'all ease 0.5s';
-            }, 0);
+            setTimeout(() => scrollBox.style.transition = 'all ease 0.5s');
 
             if (direction >= 1) {
                 scrollBox.appendChild(scrollBox.children[0]);
@@ -59,7 +56,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 scrollBox.replaceChild(getRandomAnimalCardsGrid(animalsQuantity), scrollBox.children[0]);
                 scrollBox.replaceChild(getRandomAnimalCardsGrid(animalsQuantity), scrollBox.children[2]);
             }
-
             setTimeout(() => isScrolling = false, 50)
         }
     });
@@ -121,10 +117,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function getRandomAnimalCardsGrid() {
-        let newAnimals = animals.map(value => ({ value, sort: Math.random() }))
+        let randomAnimals = animals.map(value => ({ value, sort: Math.random() }))
             .sort((a, b) => a.sort - b.sort)
             .map(({ value }) => value);
 
-        return createAnimals([...newAnimals].slice(0, animalsQuantity));
+        return createAnimals([...randomAnimals].slice(0, animalsQuantity));
     }
 });

@@ -426,6 +426,15 @@ input {
     justify-content: space-between;
     margin-top: 47px;
     height: 391px;
+    overflow: hidden;
+}
+
+#testimotionals-content-scroll {
+    display: grid;
+    grid-template-rows: 1fr;
+    column-gap: 29px;
+    grid-auto-flow: column;
+    transition: all ease 0.5s;
 }
 
 .testimotionals-card-border {
@@ -457,6 +466,7 @@ input {
 }
 
 .testimotionals-card-title-box {
+    width: 100%;
     margin-left: 10px;
 }
 
@@ -466,6 +476,11 @@ input {
     line-height: 120%;
     color: black;
     margin: 0px;
+}
+
+.testimotionals-avatar-img {
+    width: 37px;
+    height: 37px;
 }
 
 .testimotionals-card-title-description {
@@ -538,7 +553,7 @@ input {
 #testimotionals-progressbar::-webkit-slider-thumb {
     -webkit-appearance: none;
     border: none;
-    width: 115.19px;
+    width: 12.5%;
     border-radius: 5px;
     height: 6px;
     background-color: #FE9013;
@@ -768,10 +783,6 @@ input {
         padding: 13px 22px 19px 14px;
     }
 
-    .testimotionals-card-border:last-child {
-        display: none;
-    }
-
     .testimotionals-card-content {
         height: 290px;
     }
@@ -785,7 +796,7 @@ input {
     }
 
     #testimotionals-progressbar::-webkit-slider-thumb {
-        width: 75px;
+        width: 11.111%;
     }
 
     #testimotionals-progressbar-border {
@@ -1061,6 +1072,12 @@ input {
     #testimotionals-content-box {
         height: 357px;
         flex-direction: column;
+    }
+
+    #testimotionals-content-scroll {
+        column-gap: 29px;
+        row-gap: 15px;
+        grid-auto-flow: row;
     }
 
     .testimotionals-card-border {
